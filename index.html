@@ -2,28 +2,88 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Microverse Landing page</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <nav>
+      <div class="conatiner">
+        <div class="logo">
+          <img src="img/logo.png" alt="">
+        </div>
+        <div class="menu">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+            <li>Help</li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <div class="main grid">
+      <div class="main-text">
+        <h2>
+          Make up to $36
+          Driving Your Car
+        </h2>
+      </div>
+      <div class="form">
+        <div class="inner-form">
+          <form>
+            <h2>
+              Apply Now
+            </h2>
+            <span>
+              Enter Your info, andn them
+              download the app to create your profile
+            </span>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Enter Your Name" id='name' value>
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" value="" required placeholder="Enter Your Email">
+            </div>
+            <div class="form-control">
+              <input type="text" name="company" value="" placeholder="Enter Your Company Name">
+            </div>
+            <div class="form-control">
+              <input type="text" name="city" value="" required placeholder="Enter Your City">
+            </div>
+            <div class="form-control">
+              <input type="text" name="zipcode" required placeholder="Enter Your Zipcode">
+            </div>
+            <div class="form-control">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
 
 
-    <h1>Hello World!</h1>
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
+    <footer>
+      <h1>See How Much You Can Make</h1>
+      <h6>How Many Hours do you want to drive a week</h6>
+      <div class="calc">
+        <div class="form-control inline">
+          <input type="text" name="hours" value="" placeholder="Hours">
+        </div>
+        <div class="form-control inline">
+          <input type="text" name="hours" value="" placeholder="Hours">
+        </div>
+        <div class="form-control inline">
+          <input type="submit" name="hours" value="Calculate">
+        </div>
+      </div>
+
+    </div>
+    </footer
+
   </body>
 </html>

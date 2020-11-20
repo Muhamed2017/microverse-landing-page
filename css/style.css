@@ -1,0 +1,153 @@
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  padding:0;
+  margin: 0;
+  background: #ddd;
+}
+ul{
+  list-style: none
+
+}
+img{
+  display: block;
+  width: 100%;
+}
+.logo{
+  width:60px;
+  height: 60px;
+}
+.logo img{
+  border-radius: 50%;
+}
+nav{
+  min-height: 50px;
+  width:100%;
+  padding:10px 0;
+  color: #fff;
+  background: #000;
+  opacity: .70;
+}
+.container{
+  max-width: 1250px;
+  margin: auto;
+}
+
+nav .conatiner{
+  display: grid;
+  grid-template-columns: 200px 50%;
+  justify-content:space-around;
+}
+
+
+nav ul li{
+  display: inline;
+  padding:0 5px;
+  margin: 0 5px;
+}
+nav{
+  z-index: 10000000000;
+  position: absolute;
+  top:0;
+}
+
+.main{
+  width:100%;
+  min-height: 500px;
+  /* background: blue; */
+  background-image: url('/img/hero-2.jpg');
+  background-repeat: no-repeat;;
+  background-size: cover;
+  position: relative;
+  /* top: -100px; */
+  /* z-index: -1; */
+}
+.main.grid{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+gap:10px;
+padding-top: 200px;
+justify-content: center;
+overflow-y: visible;;
+
+}
+.main-text{
+  /* background: red; */
+  padding :60px;
+}
+.form{
+  max-height: 500px;
+}
+.main-text h2{
+  font-size: 2rem;
+  color: #fff;
+  font-family: Arial
+}
+
+.inner-form{
+  min-height: 520px;
+  width:350px;
+  background: #fff;
+  border-radius: 10px;
+  padding :15px;
+  font-family: Arial;
+
+}
+.inner-form span{
+  font-size: 14px;
+  color:#d5d5d5;
+  font-weight: light;
+}
+.form-control{
+  margin: 15px 0;
+
+}
+.form-control input{
+  padding:10px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  font-size: 13px;
+
+}
+.form-control input[type="submit"]{
+  width:100px;
+  background: #EA0B8C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.form-control input:focus{
+  outline: none;
+}
+
+footer{
+  background: #D8DFE6;
+  min-height: 200px;
+  width: 100%;
+  padding:10px 30px;
+  /* position: relative; */
+  /* top:150px; */
+  font-family: Arial;
+}
+
+.calc .form-control input{
+  width:200px;
+}
+.calc h1, h6{
+  margin: 0;
+  padding:0;
+  /* line-height: -1px; */
+}
+.calc .form-control {
+  display: inline;
+  margin:  0 5px;
+  mar
+}
+.calc  {
+  padding:8px;
+}
